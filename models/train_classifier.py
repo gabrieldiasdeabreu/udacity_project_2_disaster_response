@@ -83,7 +83,7 @@ def evaluate_model(model, X_test, Y_test, category_names):
     """
      evaluates the model in the test data
     """
-    print(classification_report(Y_test, model.predict(X_test)))
+    print(classification_report(Y_test, model.predict(X_test), target_names=category_names))
 
 
 def save_model(model, model_filepath):
