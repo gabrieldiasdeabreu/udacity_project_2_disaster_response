@@ -16,7 +16,8 @@ The data has been processed to each of 36 classes being an binary feature which 
 Some categories in the dataset have much less examples than others as we can see at the Overview. It decreases model learning generalization by biasing to more commom categories as related, aid_related and weather_related.
 
 ## Project
-`.
+```bash
+.
 ├── app
 │   ├── run.py - runs the flask server
 │   └── templates - html files
@@ -32,7 +33,7 @@ Some categories in the dataset have much less examples than others as we can see
 │   └── train_classifier.py - script to generate classification models from DisasterResponse.db
 ├── README.md - this file
 └── requirements.txt - dependencies file
-`
+```
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
